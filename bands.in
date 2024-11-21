@@ -1,0 +1,5 @@
+&bands
+   prefix  = 'Si'
+   filband = 'bands.dat'
+   outdir = './temp',
+ /
