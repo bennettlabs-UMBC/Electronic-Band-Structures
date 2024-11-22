@@ -1,0 +1,48 @@
+&CONTROL
+  calculation = 'nscf',
+  pseudo_dir = './', 
+  outdir = './temp',
+  prefix = 'ZnS',
+etot_conv_thr=1.D-7,
+forc_conv_thr=2.D-6,
+nstep=100,
+/
+&SYSTEM
+  ibrav = 2,
+  celldm(1) = 10.129963,
+  nat = 2,
+  ntyp = 2,
+  nbnd = 50,
+  ecutwfc = 40,
+  ecutrho = 320,
+  occupations = 'smearing',
+  smearing = 'gaussian',
+  degauss = 0.02,
+  input_dft='wc',
+/
+&ELECTRONS
+  electron_maxstep = 150,
+  diagonalization = 'david',
+  conv_thr = 1.0d-7,
+  mixing_beta = 0.2,
+/
+&IONS
+/
+&CELL
+  press = 0.0,
+/
+ATOMIC_SPECIES
+Zn  65.380  zn_pbe_v1.uspp.F.UPF
+S   32.066  s_pbe_v1.4.uspp.F.UPF
+
+
+
+ATOMIC_POSITIONS {crystal}
+Zn       0.000000000  -0.000000000   0.000000000
+S        0.250000000   0.250000000   0.250000000
+
+
+
+K_POINTS {automatic}
+10 10 10 1 1 1
+
