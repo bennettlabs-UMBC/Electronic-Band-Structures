@@ -1,0 +1,5 @@
+ &bands
+   prefix  = 'ZnO'
+   filband = 'bands.dat'
+   outdir = './temp',
+ /

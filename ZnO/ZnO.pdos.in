@@ -1,0 +1,5 @@
+&projwfc
+ outdir='./temp/'
+ prefix='ZnO'
+ DeltaE=0.015,
+/

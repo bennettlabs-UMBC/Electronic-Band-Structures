@@ -1,0 +1,49 @@
+&CONTROL
+  calculation = 'scf',
+  pseudo_dir = './',
+  outdir = './temp',
+  prefix = 'ZnO',
+etot_conv_thr=1.D-7,
+forc_conv_thr=2.D-6,
+nstep=100,
+/
+&SYSTEM
+  ibrav = 4,
+  celldm(1) = 6.11796, 
+  celldm(3) = 1.61453,
+  nat = 4,
+  ntyp = 2,
+  nbnd = 30,
+  ecutwfc = 40,
+  ecutrho = 320,
+  occupations = 'smearing',
+  smearing = 'gaussian',
+  degauss = 0.01,
+  input_dft='wc',
+/
+&ELECTRONS
+  electron_maxstep = 150,
+  diagonalization = 'david',
+  conv_thr = 1.0d-7,
+  mixing_beta = 0.2,
+/
+&IONS
+/
+&CELL
+  press = 0.0,
+/
+ATOMIC_SPECIES
+Zn  65.380  zn_pbe_v1.uspp.F.UPF
+O   15.999  o_pbe_v1.2.uspp.F.UPF
+
+
+ATOMIC_POSITIONS {crystal}
+Zn       0.333332397   0.666667603   0.001813510
+Zn       0.666667603   0.333332397   0.501813510
+O        0.333333291   0.666666709   0.380686490
+O        0.666666709   0.333333291   0.880686490
+
+
+
+K_POINTS {automatic}
+10 10 10 1 1 1
