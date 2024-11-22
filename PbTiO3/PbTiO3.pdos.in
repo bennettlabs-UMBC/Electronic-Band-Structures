@@ -1,0 +1,5 @@
+&projwfc
+ outdir='./temp/'
+ prefix='PbTiO3'
+ DeltaE=0.015,
+/

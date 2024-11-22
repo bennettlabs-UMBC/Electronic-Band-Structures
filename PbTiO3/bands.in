@@ -1,0 +1,5 @@
+ &bands
+   prefix  = 'PbTiO3'
+   filband = 'bands.dat'
+   outdir = './temp',
+ /
