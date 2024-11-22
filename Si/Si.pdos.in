@@ -1,0 +1,5 @@
+&projwfc
+ outdir='./temp/'
+ prefix='Si'
+ DeltaE=0.015,
+/
