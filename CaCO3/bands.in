@@ -1,0 +1,5 @@
+ &bands
+   prefix  = 'CaCO3'
+   filband = 'bands.dat'
+   outdir = './temp',
+ /

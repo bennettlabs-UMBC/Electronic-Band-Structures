@@ -1,0 +1,5 @@
+&projwfc
+ outdir='./temp'
+ prefix='CaCO3'
+ DeltaE=0.015,
+/
