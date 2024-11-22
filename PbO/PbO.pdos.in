@@ -1,0 +1,5 @@
+&projwfc
+ outdir='./temp'
+ prefix='PbO'
+ DeltaE=0.015,
+/

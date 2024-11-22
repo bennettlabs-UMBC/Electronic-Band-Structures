@@ -1,0 +1,5 @@
+ &bands
+   prefix  = 'PbO'
+   filband = 'bands.dat'
+   outdir = './temp',
+ /
