@@ -1,0 +1,5 @@
+&projwfc
+ outdir='./temp/'
+ prefix='GaAs'
+ DeltaE=0.015,
+/

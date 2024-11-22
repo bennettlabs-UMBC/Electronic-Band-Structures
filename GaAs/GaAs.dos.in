@@ -1,0 +1,8 @@
+&dos
+ prefix='GaAs'
+ outdir='./temp/'
+ Emin = -20.00,
+ Emax =  20.00,
+ DeltaE = 0.015,
+ fildos = 'dos.dat'
+/
