@@ -1,0 +1,17 @@
+     Input file > Reading   45 bands at    321 k-points
+Range:   -5.8660   56.8060eV  Emin, Emax > high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+high-symmetry point: -1.0000 0.0000 0.0000   x coordinate   1.0000
+high-symmetry point: -1.0000 0.5000 0.0000   x coordinate   1.5000
+high-symmetry point: -0.7500 0.7500 0.0000   x coordinate   1.8536
+high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   2.9142
+high-symmetry point: -0.5000 0.5000 0.5000   x coordinate   3.7802
+high-symmetry point: -1.0000 0.2500 0.2500   x coordinate   4.3926
+high-symmetry point: -1.0000 0.5000 0.0000   x coordinate   4.7462
+high-symmetry point: -0.5000 0.5000 0.5000   x coordinate   5.4533
+high-symmetry point: -0.7500 0.7500 0.0000   x coordinate   6.0656
+high-symmetry point: -0.8750 0.5000 0.1250   x coordinate   6.3718
+high-symmetry point: -1.0000 0.2500 0.2500   x coordinate   6.6780
+high-symmetry point: -1.0000 0.0000 0.0000   x coordinate   7.0316
+output file (gnuplot/xmgr) > bands in gnuplot/xmgr format written to file bands.xmgr                                                                                                                                                                                                                                                      
+output file (ps) > Efermi > deltaE, reference E (for tics) bands in PostScript format written to file bands.ps                                                                                                                                                                                                                                                        
+     Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file >      Input file > 
